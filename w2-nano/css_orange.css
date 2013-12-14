@@ -1,0 +1,22 @@
+h1 {
+    color: #ff681f;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 600%;
+}
+
+img {
+    border: 5px solid #ff681f;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #ffdb88;
+}
+
+a {
+    color: #ff681f;
+}
+

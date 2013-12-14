@@ -1,0 +1,17 @@
+/* this css uses blue for most stuff */
+h1 {
+	color: blue;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 600%;
+}
+
+img {
+	border: 5px inset darkblue;
+	display: block;
+}
+
+body {
+	background-color: lavender;
+}
+

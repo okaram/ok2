@@ -1,0 +1,23 @@
+/* this css uses blue for most stuff */
+h1 {
+	color: blue;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+img {
+	border: 5px inset #ff00ff;
+	display: block;
+}
+
+body {
+	background-color: #00a0a5;
+	
+	color: #00ff00;
+}
+
+
+p.fancy {
+	color: black;
+	background: url('../media/platypus.png') repeat 0 10%;	
+}

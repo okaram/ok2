@@ -1,0 +1,23 @@
+/* this css uses as much stuff as possible. not pretty, but examples :)*/
+
+body {
+	background-color: lavender;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 600%;
+}
+
+img {
+	border: 5px inset darkblue;
+	display: block;
+}
+
+.pretty {
+	color: blue;
+	background-color: @url('../media/owl.png');
+}
+

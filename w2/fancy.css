@@ -1,0 +1,37 @@
+/* this css uses blue for most stuff */
+h1 {
+	color: blue;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+img {
+	border: 5px inset #ff00ff;
+	display: block;
+}
+
+body {
+	background-color: #00a0a5;
+	
+	color: #00ff00;
+}
+
+
+p.fancy {
+    color: pink;
+    background: url('../media/heart.png');
+    height: 80px;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p.pretty {
+	padding: 30px;
+	background-color: #00a030;
+	border: 10px inset #ff00ff;
+	margin: 20px;
+	font-weight: bold;
+	text-align: center;
+}
