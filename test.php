@@ -5,7 +5,8 @@
 <body>
 <p>This appears to work</p>
 <?php
-	echo "php works";
+	for($i=0; $i<5;++$i)
+		echo "<p>php works</p>";
 ?>
 
 </body>
