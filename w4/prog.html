@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+
+	<style type="text/css">
+		code {
+			color: darkgreen;
+			font-weight: bold;
+			font-size: 200%;
+		}
+	</style>
+	<script type="text/javascript" src="prog.js"></script>
+</head>
+<body>
+	
+	<h2>An image</h2>
+	<img id='theImg' src='https://raw.github.com/okaram/html-css-js/master/flip/karamoa.jpg'>
+<h2>Programming</h2>
+<ul>
+	<li>ctrl-shift-j in chrome opens the javascript console</li>
+	<li>you type javascript code and it gets executed immediately when you press enter</li>
+	<li>Can use as a calculator; type: <code>3+2</code> (then enter)</li>
+	<li>Can define variables <code>var x=3;</code> and use them later <code>x+3</code></li>
+	<li>Can define functions: <code>function add(a,b) { return a+b;}</code> and use them later <code>add(3,4)</code></li>
+	<li>Can use it to change your document !! <code>document.bgColor='lightblue'
+</code></li>
+	<li>Can use document.getElementById to get a specific piece of your document, and modify it    <code>img==document.getElementById('theImg')</code> will get you the image there, and store it in the variable img</li>
+	<li>And can modify those elements: <code>img.width=200</code></li>
+	<li>Can create new elements: <code>snd=document.createElement('audio');</code> then <code>snd.src='abc.ogg'</code> and <code>snd.play()</code></li>
+	<li>Can use the &lt;script> tag to add javascript to a page, either directly (embed) or point to another file with src   &lt;script type="text/javascript">&lt;/script></li>
+</ul>
+<h2>Save on your machine (sorry)</h2>
+<ul>
+	<li>Make a folder w4 inside davis</li>
+	<li>save this document (ctrl-s should work in chrome)</li>
+	<li>get and save prog.js  (ctrl-u to view source, click on prog.js, ctrl-s to save it, make sure to save it in w4)</li>
+	<li>open them  in bluefish to edit</li>
+</ul>
+
+<h2>Input fields</h2>
+<ul>
+	<li>You can add input fields to your html pages; we'll buttons (can also do text fields for user to type, lists to select, sliders ...)</li>
+	<li><code>&lt;input type="button" id="b1" value="make pink" onClick="makePink()">
+	<li><code>input type="button"</code> says that it is a button</li>
+	<li>we can give it an id, if we want to modify it later</li>
+	<li>its <code>value</code> is the text that will be displayed inside</li>
+	<li><code>onClick</code> is what code will be executed when you click it</li>
+</code></li>
+	<li>Add a button to make blue</li>
+	<li>Go to prog.js in bluefish, create a function to make it another color that you like, then add a button for it to the html</li>
+	<li>Challenge: add a button to make it play one of your sounds</li>
+</ul>
+</body>
+</html>
