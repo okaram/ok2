@@ -1,0 +1,15 @@
+<html>
+<body>
+<script type="text/javascript">
+function convert()
+{
+	document.getElementById('celsius').value=(document.getElementById('faren').value-32)/1.8;
+}
+</script>
+<p>Fahrenheit: <input type="text" id="faren" name="faren"></p>
+<p>Celsius: <input type="text" id="celsius" name="celsius"></p>
+
+<input type="button" value="Convertir" onClick="convert()"> 
+
+</body>
+</html>
